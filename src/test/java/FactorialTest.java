@@ -16,7 +16,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void shouldReturnOneForFactorialOfOne(){
+    public void shouldReturnOneForFactorialOfOne() {
         int expectedFactorialOf1 = 1;
         Factorial factorial = new Factorial(1);
 
@@ -26,7 +26,7 @@ public class FactorialTest {
     }
 
     @Test
-    public void shouldReturnCorrectFactorial(){
+    public void shouldReturnCorrectFactorial() {
         int expectedFactorialOf5 = 120;
         Factorial factorial = new Factorial(5);
 
