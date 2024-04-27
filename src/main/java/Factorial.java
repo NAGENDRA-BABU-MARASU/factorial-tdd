@@ -13,11 +13,11 @@ public class Factorial {
     }
 
     private int calculateFactorial() {
-        int factorialForZeroAndOne = 1;
-        if (number == 0 || number == 1) {
-            return factorialForZeroAndOne;
-        }
         int result = 1;
+        if (number == 0 || number == 1) {
+            return result;
+        }
+
         for (int i = number; i >= 2; i--) {
             result = result * i;
         }
